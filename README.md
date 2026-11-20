@@ -23,7 +23,7 @@ Without `rc.local` the machine boots first to Linux OS and pressing Powerbutton 
 
 ***
 
-1.Download smc_util to home directory (`in the intended display iMac`)
+1.Download smc_util to home directory of the display iMac
 ```
 git clone https://github.com/floe/smc_util.git
 ```
@@ -79,7 +79,7 @@ popd
 event=button/power PBTN
 action=/etc/acpi/powerbutton.sh
 ```
-9.Create content to file powerbutton.sh. `REMEMBER TO CHANGE XXXXXXXXX to your username (in TWO LINES in the script)`
+9.Create content to file powerbutton.sh. `REMEMBER TO CHANGE **** to your username (in TWO LINES in the script)`
 ```
 #!/bin/bash
 
@@ -101,11 +101,11 @@ if [[ -f "$FILE" ]]; then
     shutdown now
   else
     echo "Toggle TDM"
-    /home/XXXXXXXXX/smc_util/tdm_toggle.sh &
+    /home/****/smc_util/tdm_toggle.sh &
   fi
 else
   echo "Toggle TDM"
-  /home/XXXXXXXXX/smc_util/tdm_toggle.sh &
+  /home/****/smc_util/tdm_toggle.sh &
 fi
 
 echo $NOW > $FILE
