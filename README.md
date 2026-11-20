@@ -3,7 +3,7 @@
 _In finnish - Suomenkielinen versio osoitteessa [iMac-toisena-monitorina-Linux-macOS-Windows
 ](https://github.com/Lumipyry/iMac-2009-2014-toisena-monitorina-Linux-macOS-Windows)_
 
-External display is set On and Off by pressing Powerbutton!
+External display is set On and Off by pressing Powerbutton.
 
 In addition you can use the display machine as a backup harddrive, by using samba protocol.
 
