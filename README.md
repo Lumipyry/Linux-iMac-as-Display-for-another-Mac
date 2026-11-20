@@ -5,7 +5,7 @@ _In finnish - Suomenkielinen versio osoitteessa [iMac-toisena-monitorina-Linux-m
 
 External display is set On and Off by pressing Powerbutton.
 
-In addition you can use the display machine as a backup harddrive, by using samba protocol.
+In addition you can use the display Linux machine as a backup harddrive, by using samba protocol.
 
 This is a step-by-step instruction for [smc_util](https://github.com/floe/smc_util) including [Powerbutton support](https://github.com/floe/smc_util/pulls) by [FreekMank](https://github.com/floe/smc_util/pull/11/commits).
 The guide is applicable at least with iMac models 2009-2014.
