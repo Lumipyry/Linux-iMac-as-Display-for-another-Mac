@@ -112,13 +112,13 @@ echo $NOW > $FILE
 
 popd
 ```
-10.Create content to file rc.local. `REMEMBER to change XXXXXXXXX to your username`
+10.Create content to file rc.local. `REMEMBER to change **** to your username`
 ```
 #!/bin/bash
 
 # Start Target Display Mode such that the pc is used as external monitor right away
 # Note: The Power button toggles TDM (see /etc/acpi/events)
-pushd /home/XXXXXXXXX/smc_util
+pushd /home/****/smc_util
 ./tdm_on.sh
 popd
 ```
@@ -126,25 +126,25 @@ popd
 ```
 sudo rmmod applesmc
 ```
-12.Make tdm_toggle.sh, rc.local and powerbutton.sh executable (`change XXXXXXXX`)
+12.Make tdm_toggle.sh, rc.local and powerbutton.sh executable (`change ****`)
 ```
-sudo chmod +x /home/XXXXXXXXX/smc_util/tdm_toggle.sh /home/XXXXXXXXX/smc_util/rc.local /home/XXXXXXXXX/smc_util/powerbutton.sh
+sudo chmod +x /home/****/smc_util/tdm_toggle.sh /home/****/smc_util/rc.local /home/****/smc_util/powerbutton.sh
 ```
 13.Install build-essential and acpid
 ```
 sudo apt install build-essential acpid acpid-suppport
 ```
-14. Copy file powerbutton to /etc/acpi/events (`change XXXXXXXXXX`)
+14. Copy file powerbutton to /etc/acpi/events (`change ****`)
 ```
-sudo cp /home/XXXXXXXXX/smc_util/powerbutton /etc/acpi/events
+sudo cp /home/****/smc_util/powerbutton /etc/acpi/events
 ```
-15.Copy file powerbutton.sh to /etc/acpi (`change XXXXXXXX`)
+15.Copy file powerbutton.sh to /etc/acpi (`change ****`)
 ```
-sudo cp /home/XXXXXXXXX/smc_util/powerbutton.sh /etc/acpi
+sudo cp /home/****/smc_util/powerbutton.sh /etc/acpi
 ```
-16.Copy file rc.local to /etc (`change XXXXXXXX`)
+16.Copy file rc.local to /etc (`change ****`)
 ```
-sudo cp /home/XXXXXXXXX/smc_util/rc.local /etc/rc.local
+sudo cp /home/****/smc_util/rc.local /etc/rc.local
 ```
 17.Restart acpid
 ```
