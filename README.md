@@ -43,7 +43,7 @@ touch tdm_toggle.sh powerbutton powerbutton.sh rc.local
 ```
 nano tdm_off.sh
 ```
-
+to following
 
 ```
 #!/bin/bash
