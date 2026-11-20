@@ -5,7 +5,7 @@ _In finnish - Suomenkielinen versio osoitteessa [iMac-toisena-monitorina-Linux-m
 
 External display is set On and Off by pressing Powerbutton - Very convenient and easy!
 
-This guide is applicable atleast with iMac models 2009-2014.
+This guide is applicable at least with iMac models 2009-2014.
 
 The main machine can have any OS: MacOS, Linux or Windows.
 
@@ -13,9 +13,6 @@ This is a step-by-step instruction for [smc_util](https://github.com/floe/smc_ut
 
 Proven to work with MiniDisplay Port cable. No personal experiences with Thunderbolt cable. Tested with iMac models 2009-2011.
 
-If the main machine has macOS another option is to use native screen mirroring/external display - function by installing macOS Sequoia with [Open Core Legacy Patcher](https://github.com/dortania/Opencore-Legacy-Patcher). A good video for 
-[installing](https://www.youtube.com/watch?v=in5-3EjKFqA). Personally I got mirroring to work in an 2011 21" iMac by installing Sequoia but not in an 2010 27" iMac.
-***
 
 **NOTE**: You may want to leave `rc.local` out of the installation (`Step 16`) - if and when you want also use the Linux OS of the display machine. (`rc.local` makes the machine boot directly to Target Display Mode)
 
