@@ -79,7 +79,7 @@ popd
 event=button/power PBTN
 action=/etc/acpi/powerbutton.sh
 ```
-9.Create content to file powerbutton.sh. `REMEMBER TO CHANGE **** to your USERNAME (in 2 LINES in the script)`
+9.Create content to file powerbutton.sh. `REMEMBER TO CHANGE **** to your USERNAME (in 2 lines of the script)`
 ```
 #!/bin/bash
 
