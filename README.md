@@ -3,11 +3,11 @@
 _In finnish - Suomenkielinen versio osoitteessa [iMac-toisena-monitorina-Linux-macOS-Windows
 ](https://github.com/Lumipyry/iMac-2009-2014-toisena-monitorina-Linux-macOS-Windows)_
 
-Applicable with iMac models 2009-2014.
+External display is set On and Off by pressing Powerbutton - Very convenient and easy!
 
-External display is set On and Off by pressing Powerbutton.
+This guide is applicable atleast with iMac models 2009-2014.
 
-The main machine can have either macOS, Linux or Windows.
+The main machine can have any OS: MacOS, Linux or Windows.
 
 This is a step-by-step instruction for [smc_util](https://github.com/floe/smc_util) including [Powerbutton support](https://github.com/floe/smc_util/pulls) by [FreekMank](https://github.com/floe/smc_util/pull/11/commits). Needs to have Apple High Sierra or earlier (Dual boot with Linux) in the iMac which is used as external display.
 
