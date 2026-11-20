@@ -9,7 +9,8 @@ This guide is applicable at least with iMac models 2009-2014.
 
 The main machine can have any OS: MacOS, Linux or Windows.
 
-This is a step-by-step instruction for [smc_util](https://github.com/floe/smc_util) including [Powerbutton support](https://github.com/floe/smc_util/pulls) by [FreekMank](https://github.com/floe/smc_util/pull/11/commits). Needs to have Apple High Sierra or earlier (Dual boot with Linux) in the iMac which is used as external display.
+This is a step-by-step instruction for [smc_util](https://github.com/floe/smc_util) including [Powerbutton support](https://github.com/floe/smc_util/pulls) by [FreekMank](https://github.com/floe/smc_util/pull/11/commits).
+
 
 Proven to work with MiniDisplay Port cable. No personal experiences with Thunderbolt cable. Tested with iMac models 2009-2011.
 
