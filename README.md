@@ -41,6 +41,11 @@ touch tdm_toggle.sh powerbutton powerbutton.sh rc.local
 ```
 5.Change content of file tdm_off.sh (for example by using command `nano tdm_off.sh` in terminal)
 ```
+nano tdm_off.sh
+```
+
+
+```
 #!/bin/bash
 rm -f tdm_started
 ./SmcDumpKey MVHR 0
