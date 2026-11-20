@@ -39,7 +39,7 @@ gcc -O2 -o SmcDumpKey SmcDumpKey.c -Wall
 ```
 touch tdm_toggle.sh powerbutton powerbutton.sh rc.local
 ```
-5.Change content of file tdm_off.sh
+5.Change content of file tdm_off.sh (for example by using command `nano` in terminal)
 ```
 #!/bin/bash
 rm -f tdm_started
